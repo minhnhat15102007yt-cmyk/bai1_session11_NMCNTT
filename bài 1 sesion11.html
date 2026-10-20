@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bài 1 sesion11</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="phần-1.-phân-tích-nguyên-nhân--lỗi-sai">PHẦN 1. PHÂN TÍCH NGUYÊN NHÂN &amp; LỖI SAI</h2>
+<h3 id="lỗi-mục-lục-trống-">1. <strong>Lỗi mục lục trống</strong> :</h3>
+<ul>
+<li>
+<p>Nguyên nhân: Nam dùng định dạng thủ công (in đậm, chỉnh cỡ chữ) trên kiểu nền Normal Style.</p>
+</li>
+<li>
+<p>Bản chất: Word chỉ quét và gom các đoạn được gán Heading Styles để tạo mục lục. Do đó, Word coi các tiêu đề của Nam chỉ là đoạn văn bản thường nên không tạo được mục lục.</p>
+</li>
+</ul>
+<p><strong>2. Lỗi đoạn văn 5 trang xuất hiện trong mục lục:</strong></p>
+<ul>
+<li>
+<p>Nguyên nhân: Nam bôi đen nhầm cả đoạn văn 5 trang đó và bấm gán nhãn Heading 1.</p>
+</li>
+<li>
+<p>Bản chất: Nhãn Style áp dụng cho toàn bộ đoạn văn. Khi gán Heading 1, Word hiểu toàn bộ 5 trang đó là một tiêu đề lớn và đưa tất cả vào mục lục.</p>
+</li>
+</ul>
+<h2 id="phần-2.-hướng-dẫn-sửa-lỗi--thao-tác"><strong>PHẦN 2. HƯỚNG DẪN SỬA LỖI &amp; THAO TÁC</strong></h2>
+<ul>
+<li>
+<p><strong>Bước 1: Sửa đoạn văn 5 trang bị dính Heading</strong></p>
+<p>Bôi đen đoạn văn 5 trang ,  Thẻ Home , Nhóm Styles , Chọn Normal (hoặc ấn Ctrl + Shift + N).</p>
+</li>
+<li>
+<p><strong>Bước 2: Gán lại Heading Styles chuẩn phân cấp</strong></p>
+<p>heading 1 (Mục lớn): Bôi đen 1. Giới thiệu, 2. Yêu cầu chức năng đến Chọn Heading 1.</p>
+<ul>
+<li>Heading 2 (Mục con): Bôi đen 1.1…, 2.1… đến Chọn Heading 2.</li>
+</ul>
+</li>
+<li>
+<p>_(Muốn đổi màu/font hàng loạt: Chuột phải vào ô Heading 1/2 dến chọn Modify…).</p>
+</li>
+<li>
+<p><strong>Bước 3: Chèn bảng mục lục tự động (Auto TOC)</strong></p>
+</li>
+</ul>
+<p>Đặt con trỏ tại vị trí cần đặt mục lục đến Thẻ <strong>References</strong> đến <strong>Table of Contents</strong> đến Chọn mẫu <strong>Automatic Table 1</strong>.<br>
+-   <strong>Bước 4: Cập nhật mục lục sau khi chỉnh sửa</strong><br>
+Click vào mục lục đến Chọn <strong>Update Table…</strong> (hoặc bấm F9) đến Chọn <strong>Update entire table</strong> đến Bấm <strong>OK</strong>.</p>
+</div>
+</body>
+
+</html>
